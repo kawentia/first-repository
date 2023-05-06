@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регістрація</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body class="wallpaper">
+
+  <header>
+    <nav>
+      <ul>
+        <li class="navbar-list"><a class="navbar-link" href="../index.html">Головна</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="articles.html">Статті</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="catalog.html">Каталог</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="contacts.html">Контакти</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="gallery.html">Галерея</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="page-nave.html">Навігація</a></li>
+        <li class="navbar-list"><a class="navbar-link" href="registration.html">Регістрація</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Регістрація</h1>
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset class="form-style">
+        <legend>#1 Базове</legend>
+        <div>
+          <label for="name">Ім'я</label>
+          <input class="capitalized" id="name" type="text" name="name" placeholder="name">
+        </div>
+        <div>
+          <label for="surname">Фамілія</label>
+          <input class="capitalized" id="surname" type="text" name="surname" placeholder="surname">
+        </div>
+        <div>
+          <label for="photo">Фото</label>
+          <input id="photo" type="file" name="photo">
+        </div>
+        <div>
+          <label for="password">Пароль</label>
+          <input id="password" type="password" name="password" placeholder="password">
+        </div>
+        <div>
+          <label for="email">Ел.пошта</label>
+          <input id="email" type="email" name="email" placeholder="email">
+        </div>
+        <div>
+          <label for="date">Дата народження</label>
+          <input id="date" type="date" name="date">
+        </div>
+      </fieldset>
+
+      <fieldset class="form-style">
+        <legend>#2 Виберіть стать</legend>
+        <div class="frame">
+          <input id="female" type="radio" name="gender" value="female">
+          <label for="female">Жіноча</label>
+        </div>
+        <div class="frame">
+          <input id="male" type="radio" name="gender" value="male">
+          <label for="male">Чоловіча</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-style">
+        <legend>#3 Виберіть кухню</legend>
+        <div class="frame">
+          <input id="italian" type="checkbox" name="kitchen">
+          <label for="italian">Італійська</label>
+        </div>
+        <div class="frame">
+          <input id="franch" type="checkbox" name="kitchen">
+          <label for="franch">Французька</label>
+        </div>
+        <div class="frame">
+          <input id="american" type="checkbox" name="kitchen">
+          <label for="american">Американська</label>
+        </div>
+        <div class="frame">
+          <input id="chinese" type="checkbox" name="kitchen">
+          <label for="chinese">Китайська</label>
+        </div>
+        <div class="frame">
+          <input id="japanese" type="checkbox" name="kitchen">
+          <label for="japanese">Японська</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-style">
+        <legend>#4 Про себе</legend>
+        <div>
+          <label for="text">Про себе</label>
+          <textarea id="text" cols="30" rows="10" name="text" placeholder="About yourself"></textarea>
+        </div>
+      </fieldset>
+      <fieldset class="form-style">
+        <legend>#5 Кнопки</legend>
+        <div>
+          <button type="submit">Зареєструватися</button>
+        </div>
+        <div>
+          <button type="reset">Очистити форму</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer class="container">
+    <div>&copy; Oliynik Kateryna</div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+.wallpaper {
+  background-image: url(../img/afb_4a7c281_dyka_pryroda_buket.jpg), url(../img/286508.jpg);
+  background-size: 100px, 150px;
+  background-position: right top;
+  background-repeat: no-repeat, repeat;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: #008000;
+  font-size: 40px;
+}
+
+.navbar-link {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: #008000;
+  background-color: rgba(4, 20, 9, 0.784);
+  padding: 10px;
+  margin: 20px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.navbar-link:hover {
+  color: #20b420;
+  outline: 1px solid #20b420;
+  transform: scale(1.2);
+}
+
+.navbar-list {
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  padding: 0 20px;
+  /* text-align: center;
+  background-size: contain; */
+  margin: 0 auto;
+}
+
+.one-letter::first-letter {
+  color: darkgreen;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.article-title {
+  font-family: cursive;
+
+}
+
+.article-link {
+  color: darkgreen;
+  border-bottom: 1px solid darkgreen;
+}
+
+.article-link-read:hover {
+  color: rgb(39, 118, 45);
+}
+
+.article-link-comment {
+  color: rgb(6, 66, 25);
+}
+
+.article-bg {
+  background: rgba(113, 113, 113, 0.092);
+  margin: 0px 50px;
+}
+
+.list-marker-1 {
+  list-style-image: url(../img/icon.png);
+  display: inline-block;
+  font-size: larger;
+  background-color: #00800081;
+  padding: 20px 70px 40px 70px;
+}
+
+.list-marker-2 {
+  list-style-image: url(../img/icon-two.png);
+  display: inline-block;
+  font-size: smaller;
+  background-color: #209f20d2;
+  padding: 10px 20px 10px 37px;
+  text-align: left;
+}
+
+.new::after {
+  content: "new";
+  background: rgb(219, 198, 4);
+  color: rgb(255, 255, 255);
+  font-size: 70%;
+  padding: 2px;
+  margin-left: 2px;
+}
+
+.wallpaper-1 {
+  background-image: url(../img/images.jpg);
+  background-repeat: repeat;
+}
+
+.border-decorated {
+  border: 15px solid darkgreen;
+  margin: 10px;
+}
+
+.border-decorated:hover {
+  border-color: transparent;
+}
+
+.top {
+  position: absolute;
+  padding: 5px;
+  margin: 190px 45px;
+  background-color: rgba(30, 36, 36, 0.62);
+}
+
+.images {
+  display: inline-flex;
+}
+
+.list-image {
+  list-style: none;
+}
+
+.frame:hover {
+  outline: 2px dotted rgb(1, 52, 22);
+}
+
+.capitalized {
+  text-transform: capitalize;
+}
+
+.main {
+  background: #1d692b78;
+  margin: 30px;
+  padding: 10px 50px;
+}
+
+footer {
+  color: #008000;
+}
+
+.center {
+  text-align: center;
+}
+
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+}
+
+input[type="file"] {
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 10px 0;
+  min-height: 75px;
+  max-height: 33vh;
+}
+
+.form-style {
+  background-color: rgba(10, 108, 33, 0.503);
+  color: #0b2b0b;
+}
